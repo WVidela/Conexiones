@@ -1,0 +1,238 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* Barra de navegacion */
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 30px 150px;
+    background-color: rgb(36, 35, 35);
+    color: white;
+    margin-bottom: 50px;
+    font-size: 18px;
+    align-items: center;
+}
+
+.selected{
+    font-weight: bold;
+    font-size: 18px;
+    margin-right: 30px;
+}
+
+.subselected{
+    font-weight: bold;
+}
+.menu{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    align-items: center;
+}
+
+li{
+    margin-right: 20px;
+}
+
+.signOut{
+    padding: 6px 15px;
+    background-color: #17a2b8;
+    color: white;
+    border: none;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+/* Fin de barra de navegacion */
+
+/* Tarjeta Jane doe */
+
+.main{
+    display: flex;
+    flex-direction: column;
+    border: 2px solid grey;
+    padding-bottom: 30px;
+    margin-bottom: 50px;
+}
+
+.cardheader{
+    margin-left: 0;
+    margin-right: 0;
+    background-color: #17a2b8;
+    height: 75px;
+}
+
+.user{
+    background-color: white;
+    border-radius: 50%;
+    border: 5px solid white;
+    height: 100px;
+    width: auto;
+    margin-left: 40px;
+    margin-top: 20px;
+}
+
+.cardinformation{
+    padding-left: 40px;
+    margin-top: 60px;
+}
+
+.location{
+    display: flex;
+    flex-direction: row;
+    align-items: left;
+    margin-bottom: 15px;
+}
+
+h1{
+    margin-bottom: 10px;
+}
+.pin, .gear{
+    height: 20px;
+    margin-right: 10px;
+    width: auto;
+}
+
+.edit{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 20px;
+}
+
+a{
+    color: #307ce4;
+}
+
+/* .parrafo{
+    margin-left: 150px;
+} */
+
+/* Fin tarjeta */
+
+
+.contenedor, .contenido-solicitud, .imagenYnombre, .iconos, .amigos-header, .amigo{
+    display: flex;
+    flex-direction: row;
+}
+
+
+.solicitudes-header, .amigos-header{
+    background-color: black;
+}
+
+.solicitudes-header{
+    display: flex;
+    flex-direction: row;
+}
+
+h4{
+    color: white;
+}
+.numero-solicitudes, .numero-amigos{
+    background-color: white;
+    border-radius: 50%;
+    margin-right: 10px;
+    padding: 3px;
+}
+
+.contenido-solicitud, .amigo, .imagenYnombre{
+    align-items: center;
+}
+
+.solicitudes{
+    border: 2px solid gray;
+}
+
+img{
+    width: 50px;
+    height: auto;
+    border-radius: 50%;
+}
+
+
+
+
+/* Sesion 2 */
+
+
+.contenedor-der{
+    /* border: 1px solid red; */
+    flex: 2;
+}
+
+.contenedor-izq{
+    /* border: 1px solid red; */
+    flex: 3;
+}
+
+
+
+.main, .educacion, .solicitudes, .amigos{
+    border: 2px solid gray;
+}
+
+.contenedor{
+    margin: 0 20%;
+    /* border: 1px solid blue; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+.educacion{
+    border: 1px solid gray;
+}
+
+.educacion-header{
+    background-color: black;
+    color: white;
+    padding: 10px;
+}
+
+.educacion-contenido{
+    padding: 15px 10px;
+}
+
+.solicitudes{
+    margin-bottom: 50px;
+}
+
+.solicitudes-header, .amigos-header{
+    background-color: black;
+    padding: 10px;
+}
+
+.contenido-solicitud{
+
+    display: flex;
+    flex-direction: row;
+    gap: 200px;
+    /* justify-content: space-between; */
+}
+
+.imagen_usuario{
+    margin-right: 10px;
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.icono{
+    height: 30px;
+    width: auto;
+    margin-right: 5px;
+}
+/* 
+.amigos-contenido{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+} */
+
+.ver-mas{
+    border-top: 1px solid gray;
+    padding: 20px;
+}
